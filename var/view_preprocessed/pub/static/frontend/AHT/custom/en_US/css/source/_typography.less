@@ -1,0 +1,55 @@
+@font-family-name__perman: 'PermanentMarker';
+@font-family__perman: @font-family-name__perman, @font-family__sans-serif;
+
+& when (@media-common = true) {
+    .lib-font-face(
+        @family-name: @font-family-name__perman,
+        @font-path: '@{baseDir}fonts/PermanentMarker/PermanentMarker-Regular',
+        @font-weight: 400,
+        @font-style: normal,
+        @font-display: swap
+    );
+
+    .lib-font-face(
+        @family-name: @font-family-name__base,
+        @font-path: '@{baseDir}fonts/Poppins/Poppins-Light300',
+        @font-weight: 300,
+        @font-style: normal,
+        @font-display: swap
+    );
+
+    .lib-font-face(
+        @family-name: @font-family-name__base,
+        @font-path: '@{baseDir}fonts/Poppins/Poppins-ExtraLightItalic200',
+        @font-weight: 200,
+        @font-style: normal,
+        @font-display: swap
+    );
+
+    .lib-font-face(
+        @family-name: @font-family-name__base,
+        @font-path: '@{baseDir}fonts/Poppins/Poppins-Bold700',
+        @font-weight: 700,
+        @font-style: normal,
+        @font-display: swap
+    );
+
+    .lib-font-face(
+        @family-name: @font-family-name__base,
+        @font-path: '@{baseDir}fonts/Poppins/Poppins-Extrabold800',
+        @font-weight: 800,
+        @font-style: normal,
+        @font-display: swap
+    );
+
+    .lib-font-face(
+        @family-name: @font-family-name__base,
+        @font-path: '@{baseDir}fonts/Poppins/Poppins-ExtraBoldItalic800',
+        @font-weight: 800,
+        @font-style: normal,
+        @font-display: swap
+    );
+
+    
+
+}

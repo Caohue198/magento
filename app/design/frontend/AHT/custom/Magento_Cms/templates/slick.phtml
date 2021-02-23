@@ -1,0 +1,24 @@
+<ul class="my-list">
+<?php for ($i=1; $i < 4; $i++): ?> 
+    <li><?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('slick-'.$i)->toHtml(); ?></li>
+<?php endfor; ?>
+</ul>
+
+<script>
+    require([
+        'jquery',
+        'slick'
+    ], function ($) {
+        $(document).ready(function () {
+            $(".my-list").slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+    });
+</script>
