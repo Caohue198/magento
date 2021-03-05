@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/mage/vendor/magento/module-ui/view/base/web/js/lib/core/class.js

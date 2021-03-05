@@ -1,0 +1,28 @@
+button {
+    .lib-button(@_button-margin: 3px);
+    border-radius: 3px;
+    &:active,
+    &:focus {
+        box-shadow: inset 0 2px 1px rgba(0,0,0,.12);
+    }
+}
+
+.example-button-1 {
+    &.example-button-2 {
+        .lib-button-l();
+    }
+    &.example-button-3 {
+        .lib-button-s();
+        border-radius: 0;
+        color: #000;
+        &:hover,
+        &.active {
+            color: #000;
+        }
+    }
+}
+h1 {
+    color: red;
+    font-size: 50px;
+    font-weight: italic;
+}

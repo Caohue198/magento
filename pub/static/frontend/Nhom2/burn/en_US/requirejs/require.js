@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/mage/lib/web/requirejs/require.js

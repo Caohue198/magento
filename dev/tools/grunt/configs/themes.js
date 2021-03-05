@@ -61,4 +61,14 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    burn: {
+        area: 'frontend',
+        name: 'Nhom2/burn',
+        locale: 'en_US',
+        files: [
+            'css/styles-m',
+            'css/styles-l'
+        ],
+        dsl: 'less'
+    }
 };

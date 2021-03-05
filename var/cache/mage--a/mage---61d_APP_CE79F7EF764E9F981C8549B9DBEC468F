@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1614928949;s:6:"expire";i:1614936149;s:4:"tags";s:49:"61d_STORE,61d_CONFIG,61d_COLLECTION_DATA,61d_MAGE";}
+[{"store_id":"1","code":"default","website_id":"1","group_id":"1","name":"Default Store View","sort_order":"0","is_active":"1"},{"store_id":"3","code":"store_view_2","website_id":"1","group_id":"4","name":"Store View 2","sort_order":"1","is_active":"1"}]
